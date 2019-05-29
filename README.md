@@ -1,5 +1,5 @@
 # VNC-RFB-Sec
- The script begins by prompting for user input for the location of their IP list. The function get_security(TCP_IP) takes an IP address, connects to port 5900 over TCP/IP, negotiates the version/security handshake and sets a flag if unauthenticated access is possible. If this flag is set, vncsnapshot is invoked in the main section of the script. The script repeats until all IPs in the list with no password have been documented with screenshots. 
+ The script begins by prompting for user input for the location of their IP list. The function checkSecurityType(TCP_IP) takes an IP address, connects to port 5900 over TCP/IP, negotiates the version/security handshake and sets a flag if unauthenticated access is possible. If this flag is set, vncsnapshot is invoked in the main section of the script. The script repeats until all IPs in the list with no password have been documented with screenshots. 
 
 ------------
 # Usage
